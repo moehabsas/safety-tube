@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import { Cairo, Rubik } from "next/font/google";
+import { ThemeProvider } from "next-themes";
 import "./globals.css";
 
 const cairo = Cairo({
@@ -23,9 +24,9 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="ar" dir="rtl">
+    <html lang="ar" dir="rtl" suppressHydrationWarning>
       <body className={`${cairo.variable} ${rubik.variable} antialiased`}>
-        {children}
+        <ThemeProvider>{children}</ThemeProvider>
       </body>
     </html>
   );
