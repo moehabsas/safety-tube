@@ -12,7 +12,7 @@ export default function Home() {
             alt="شعار فريق السلامة والصحة المنهية"
             height={150}
             width={150}
-            priority
+            preload
           />
           <div className="text-center space-y-3.5">
             <h1 className="font-semibold text-4xl">السلامة أولاً</h1>
