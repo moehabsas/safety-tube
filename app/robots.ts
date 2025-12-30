@@ -1,8 +1,7 @@
 import type { MetadataRoute } from "next";
+import { baseUrl } from "@/lib/config";
 
 export default function robots() {
-  const baseUrl = process.env.PUBLIC_NEXT_URL!;
-
   return {
     rules: [
       {
