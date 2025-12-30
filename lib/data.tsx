@@ -9,6 +9,7 @@ export interface Topic {
   slug: string;
   title: string;
   description: string;
+  lastModified: Date;
   icon: React.ElementType;
   cards: Flashcard[];
 }
