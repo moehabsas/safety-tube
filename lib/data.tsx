@@ -27,7 +27,7 @@ export const topics: Topic[] = [
     slug: "emergency_codes",
     title: "أكواد الطوارئ",
     description: "تعلم المزيد عن جميع أكواد الطوارئ الخاصة بالمستشفيات.",
-    lastModified: new Date("30-12-2025"),
+    lastModified: new Date("2025-12-30"),
     icon: Siren,
     cards: [
       {
@@ -42,7 +42,7 @@ export const topics: Topic[] = [
     slug: "evacuation",
     title: "إخلاء",
     description: "تعلم المزيد عن إخلاء المستشفيات في أوقات الطوارئ.",
-    lastModified: new Date("30-12-2025"),
+    lastModified: new Date("2025-12-30"),
     icon: DoorOpen,
     cards: [
       {
@@ -57,7 +57,7 @@ export const topics: Topic[] = [
     slug: "chemical_signals",
     title: "الإشارات الكيميائية",
     description: "تعلم المزيد عن إشارات الكيميائية الخاصة بالمستشفيات.",
-    lastModified: new Date("30-12-2025"),
+    lastModified: new Date("2025-12-30"),
     icon: FlaskConical,
     cards: [
       {
@@ -72,7 +72,7 @@ export const topics: Topic[] = [
     slug: "fire_extinguisher",
     title: "الطفايات",
     description: "تعلم المزيد عن كيفية استخدام الطفايات والتعامل مع الحرائق.",
-    lastModified: new Date("30-12-2025"),
+    lastModified: new Date("2025-12-30"),
     icon: Flame,
     cards: [
       {
@@ -99,7 +99,7 @@ export const topics: Topic[] = [
     slug: "elevators",
     title: "المصاعد",
     description: "تعلم المزيد عن كيفية استخدام المصاعد في المستشفيات.",
-    lastModified: new Date("30-12-2025"),
+    lastModified: new Date("2025-12-30"),
     icon: ArrowUpDown,
     cards: [
       {
