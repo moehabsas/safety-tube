@@ -1,1 +1,1 @@
-export const baseUrl = "https://safetytube.vercel.app";
+export const baseurl = "https://safetytube.vercel.app";

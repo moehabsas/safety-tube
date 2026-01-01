@@ -1,7 +1,7 @@
 import type { Metadata, Viewport } from "next";
 import { Cairo, Rubik } from "next/font/google";
 import { ThemeProvider } from "next-themes";
-import { baseUrl } from "@/lib/config";
+import { baseurl } from "@/lib/config";
 import "./globals.css";
 
 const cairo = Cairo({
@@ -25,7 +25,7 @@ export const metadata: Metadata = {
   },
   description: "موقع فريق السلامة والصحة المهنية.",
   keywords: ["السلامة", "الصحة", "المهنية", "شنتنا الحجر"],
-  metadataBase: new URL(baseUrl),
+  metadataBase: new URL(baseurl),
   openGraph: {
     type: "website",
     siteName: "السلامة والصحة المهنية",
